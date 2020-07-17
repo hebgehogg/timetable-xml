@@ -1,0 +1,41 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="schedule">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="week">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="day" maxOccurs="unbounded" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="lesson" maxOccurs="unbounded" minOccurs="0">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element type="xs:short" name="class"/>
+													<xs:element type="xs:string" name="teacher"/>
+													<xs:element name="time">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element type="xs:time" name="start"/>
+																<xs:element type="xs:time" name="end"/>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+													<xs:element type="xs:string" name="type"/>
+												</xs:sequence>
+												<xs:attribute type="xs:string" name="title" use="optional"/>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute type="xs:string" name="name_day" use="optional"/>
+									<xs:attribute type="xs:byte" name="count_lesson" use="optional"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute type="xs:byte" name="count_week"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

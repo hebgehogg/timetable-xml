@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE schedule [
+  <!ELEMENT schedule (week)+>
+  <!ELEMENT week (day)+>
+  <!ELEMENT day (lesson)*> 
+  <!ELEMENT lesson (class, teacher, time, type)>
+  <!ELEMENT time (start, end)>
+  <!ELEMENT class (#PCDATA)>
+  <!ELEMENT teacher (#PCDATA)>
+  <!ELEMENT start (#PCDATA)>
+  <!ELEMENT end (#PCDATA)>
+  <!ELEMENT type (#PCDATA)>
+  <!ATTLIST week count_week CDATA #REQUIRED>
+  <!ATTLIST day name_day CDATA #REQUIRED count_lesson CDATA #REQUIRED>
+  <!ATTLIST lesson title CDATA #REQUIRED>
+  <!ENTITY english "Английский язык">
+  <!ENTITY algorithms "Алгоритмы и структуры данных">
+  <!ENTITY kpo "Конструирование программного обеспечения">
+  <!ENTITY bd "Базы данных">
+  <!ENTITY pravo "Правовые основы инф. безопасности">
+  <!ENTITY matstat "Стат. и эмпер. методы компьютинга">
+  <!ENTITY nis "Науч.-исслед.семинар">
+  <!ENTITY os "Операционные системы">
+]>
+<schedule>	
+  <week count_week="5">
+    <day name_day="Monday" count_lesson="3">
+      <lesson title="&english;">
+        <class>110</class>
+        <teacher>Садикова Т.Б.</teacher>
+		<time>
+      <start>08:10:00</start>
+			<end>09:30:00</end>
+		</time>
+        <type>Практика</type>
+      </lesson>
+	  <lesson title="&english;">
+        <class>110</class>
+        <teacher>Садикова Т.Б.</teacher>
+		<time>
+      <start>09:40:00</start>
+			<end>11:00:00</end>
+		</time>
+        <type>Практика</type>
+      </lesson>
+	  <lesson title="&algorithms;">
+        <class>504</class>
+        <teacher>Морозенко В.В.</teacher>
+		<time>
+      <start>11:30:00</start>
+			<end>12:50:00</end>
+		</time>
+        <type>Практика</type>
+      </lesson>  
+    </day>
+    <day name_day="Tuesday" count_lesson="4">
+      <lesson title="&bd;">
+        <class>305</class>
+        <teacher>Хренов В.В.</teacher>
+		<time>
+			<start>11:30:00</start>
+			<end>12:50:00</end>
+		</time>
+        <type>Практика</type>
+      </lesson>
+	  <lesson title="&kpo;">
+        <class>102</class>
+        <teacher>Ланин В.В.</teacher>
+		<time>
+		    <start>13:00:00</start>
+			<end>14:20:00</end>
+		</time>
+        <type>Лекция</type>
+      </lesson>
+	  <lesson title="&pravo;">
+        <class>407</class>
+        <teacher>Мальцев Н.М.</teacher>
+		<time>
+			<start>14:30:00</start>
+			<end>15:50:00</end>
+		</time>
+        <type>Лекция</type>
+      </lesson>
+	  	  <lesson title="&pravo;">
+        <class>407</class>
+        <teacher>Мальцев Н.М.</teacher>
+		<time>
+			<start>16:00:00</start>
+			<end>17:20:00</end>
+		</time>
+        <type>Лекция</type>
+      </lesson> 
+    </day>
+	<day name_day="Wednesday" count_lesson="3">
+      <lesson title="&kpo;">
+        <class>509</class>
+        <teacher>Ланин В.В.</teacher>
+		<time>
+			<start>09:40:00</start>
+			<end>11:00:00</end>
+		</time>
+        <type>Практика</type>
+      </lesson>
+	  <lesson title="&os;">
+        <class>305</class>
+        <teacher>Ланин В.В.</teacher>
+		<time>
+		    <start>11:30:00</start>
+			<end>12:50:00</end>
+		</time>
+        <type>Практика</type>
+      </lesson>
+	  <lesson title="&matstat;">
+        <class>511</class>
+        <teacher>Радионова М.В.</teacher>
+		<time>
+			<start>13:00:00</start>
+			<end>14:20:00</end>
+		</time>
+        <type>Практика</type>
+      </lesson>  
+    </day>
+	<day name_day="Thursday" count_lesson="2">
+      <lesson title="&os;">
+        <class>220</class>
+        <teacher>Лядова Л.Н.</teacher>
+		<time>
+			<start>11:30:00</start>
+			<end>12:50:00</end>
+		</time>
+        <type>Лекция</type>
+      </lesson>
+	  <lesson title="&matstat;">
+        <class>220</class>
+        <teacher>Радионова М.В.</teacher>
+		<time>
+			<start>13:00:00</start>
+			<end>14:20:00</end></time>
+        <type>Лекция</type>
+      </lesson>
+    </day>
+	<day name_day="Friday" count_lesson="2">
+      <lesson title="&nis;">
+        <class>102</class>
+        <teacher>Носкова Е.Н.</teacher>
+		<time>
+			<start>09:40:00</start>
+			<end>11:00:00</end>
+		</time>
+        <type>Практика</type>
+      </lesson>
+	  <lesson title="&bd;">
+        <class>102</class>
+        <teacher>Хренов</teacher>
+		<time>
+			<start>11:30:00</start>
+			<end>12:50:00</end>
+		</time>
+        <type>Лекция</type>
+      </lesson>
+    </day>
+  </week>
+</schedule>

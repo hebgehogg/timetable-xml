@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schedule>	
+  <week count_week="5">
+    <day name_day="Monday" count_lesson="3">
+      <lesson title="Английский язык">
+        <class>110</class>
+        <teacher>Садикова Т.Б.</teacher>
+		    <time>
+          <start>08:10:00</start>
+			    <end>09:30:00</end>
+		    </time>
+        <type>Практика</type>
+      </lesson>
+	  <lesson title="Английский язык">
+        <class>110</class>
+        <teacher>Садикова Т.Б.</teacher>
+		    <time>
+          <start>09:40:00</start>
+			    <end>11:00:00</end>
+		    </time>
+        <type>Практика</type>
+      </lesson>
+	  <lesson title="Алгоритмы и структуры данных">
+        <class>504</class>
+        <teacher>Морозенко В.В.</teacher>
+		    <time>
+          <start>11:30:00</start>
+			    <end>12:50:00</end>
+		    </time>
+        <type>Практика</type>
+      </lesson>  
+    </day>
+    <day name_day="Tuesday" count_lesson="4">
+      <lesson title="Базы данных">
+        <class>305</class>
+        <teacher>Хренов В.В.</teacher>
+		    <time>
+          <start>11:30:00</start>
+			    <end>12:50:00</end>
+		    </time>
+        <type>Практика</type>
+      </lesson>
+	  <lesson title="Конструирование программ. обеспечения">
+        <class>102</class>
+        <teacher>Ланин В.В.</teacher>
+		    <time>
+          <start>13:00:00</start>
+			    <end>14:20:00</end>
+		    </time>
+        <type>Лекция</type>
+      </lesson>
+	  <lesson title="Правовые основы инф. безопасности">
+        <class>407</class>
+        <teacher>Мальцев Н.М.</teacher>
+		    <time>
+          <start>14:30:00</start>
+			    <end>15:50:00</end>
+		    </time>
+        <type>Лекция</type>
+      </lesson>
+	  	  <lesson title="Правовые основы инф. безопасности">
+        <class>407</class>
+        <teacher>Мальцев Н.М.</teacher>
+		    <time>
+          <start>16:00:00</start>
+			    <end>17:20:00</end>
+		    </time>
+        <type>Лекция</type>
+      </lesson> 
+    </day>
+	<day name_day="Wednesday" count_lesson="3">
+      <lesson title="Конструирование программ. обеспечения">
+        <class>509</class>
+        <teacher>Ланин В.В.</teacher>
+		    <time>
+          <start>09:40:00</start>
+			    <end>11:00:00</end>
+		    </time>
+        <type>Практика</type>
+      </lesson>
+	  <lesson title="Операционные системы">
+        <class>305</class>
+        <teacher>Ланин В.В.</teacher>
+		    <time>
+          <start>11:30:00</start>
+			    <end>12:50:00</end>
+		    </time>
+        <type>Практика</type>
+      </lesson>
+	  <lesson title="Стат. и эмпер. методы компьютинга">
+        <class>511</class>
+        <teacher>Радионова М.В.</teacher>
+		    <time>
+          <start>13:00:00</start>
+			    <end>14:20:00</end>
+		    </time>
+        <type>Практика</type>
+      </lesson>  
+    </day>
+	<day name_day="Thursday" count_lesson="2">
+      <lesson title="Операционные системы">
+        <class>220</class>
+        <teacher>Лядова Л.Н.</teacher>
+		    <time>
+          <start>11:30:00</start>
+			    <end>12:50:00</end>
+		    </time>
+        <type>Лекция</type>
+      </lesson>
+	  <lesson title="Стат. и эмпер. методы компьютинга">
+        <class>220</class>
+        <teacher>Радионова М.В.</teacher>
+		    <time>
+          <start>13:00:00</start>
+			    <end>14:20:00</end>
+        </time>
+        <type>Лекция</type>
+      </lesson>
+    </day>
+	<day name_day="Friday" count_lesson="2">
+      <lesson title="Науч.- исслед. семинар">
+        <class>102</class>
+        <teacher>Носкова Е.Н.</teacher>
+		    <time>
+          <start>09:40:00</start>
+			    <end>11:00:00</end>
+		    </time>
+        <type>Практика</type>
+      </lesson>
+	  <lesson title="Базы данных">
+        <class>102</class>
+        <teacher>Хренов</teacher>
+		    <time>
+          <start>11:30:00</start>
+			    <end>12:50:00</end>
+		    </time>
+        <type>Лекция</type>
+      </lesson>
+    </day>
+  </week>
+</schedule>
